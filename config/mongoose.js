@@ -1,8 +1,12 @@
 // require the library
 const mongoose = require('mongoose');
+require("dotenv").config();
+
 
 // connect to the database
-mongoose.connect('mongodb://localhost/todos');
+mongoose.connect(process.env.URI, {
+    useUnifiedTopology: true
+});
 
 // aquire the connection (to check if it is successful)
 const db = mongoose.connection;
