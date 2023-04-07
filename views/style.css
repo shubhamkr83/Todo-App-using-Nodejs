@@ -1,0 +1,147 @@
+/* for whole conatiner */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* root tag for all element */
+
+html {
+  font-size: 62.5%;
+}
+
+/* main body part */
+body {
+  margin: 20px;
+
+}
+
+/* h1 style */
+h1 {
+  font-size: 3rem;
+}
+
+ul {
+  list-style: none;
+}
+
+input[type="text"] {
+  font-size: 1.5rem;
+  /* background: transparent; */
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+/* styling all label  */
+label {
+  display: block;
+  font-size: 2.5rem;
+  text-transform: uppercase;
+}
+
+/* styling all container */
+.container {
+  border-radius: 5%;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container .title {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+
+.todo {
+  padding-bottom: 8rem;
+}
+
+
+.table td {
+  padding-top: 2rem;
+  /* border: 2px solid red; */
+}
+
+.table .table_heading {
+  background: rgb(2, 2, 2);
+  color: #ffff;
+  padding-left: .5rem;
+
+}
+
+.table .description {
+  text-align: center;
+  border: 1px solid #ddd;
+  font-size: 1.8rem;
+  padding-left: 1.8rem;
+}
+
+.table .category {
+  text-align: center;
+  border: 1px solid #ddd;
+
+}
+
+.table .date {
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+input[type="date"] {
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+::-webkit-calendar-picker-indicator {
+  background-color: #ffffff;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+#add_task_button {
+  text-align: center;
+}
+
+#add_task_button input {
+  font-size: 1.8rem;
+}
+
+#delete_task_button {
+  text-align: center;
+}
+
+#delete_task_button input {
+  font-size: 1.8rem;
+}
+
+/* task list */
+#task_list:nth-child(even) {
+  border-bottom: 1px solid #ddd;
+}
+
+#task-description {
+  font-size: 1.8rem;
+}
+
+.col-1-of-2 {
+  width: 50%;
+}
+
+.col-1-of-1 {
+  width: 100%;
+}
+
+/* select for all */
+select {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+}
